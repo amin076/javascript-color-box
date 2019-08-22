@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>RGB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+	<script src="myScript.js"></script>
+</head>
+<body>
+
+<h1>RGB COLORS</h1>
+
+
+<div class="clearfix">
+  <div class="ranges1" style="background-color:black">
+  <p>controlers</p>
+  
+  <ul id="list">
+            <li>
+                <input type="range" onmousemove="redfunc()" id="rgbred" value="0" min="0" max="255">
+                <p id="red">Red</p>
+            </li>
+            <li>
+                <input type="range" onmousemove="greenfunc()" id="rgbgreen" value="0" min="0" max="255">
+                <p id="green">green</p>
+            </li>
+            <li>
+                <input type="range" onmousemove="bluefunc()" id="rgbblue" value="0" min="0" max="255">
+                <p id="blue">Blue</p>
+            </li>
+
+            <li>
+                <input type="range" onmousemove="widthfunc()" id="myrange" value="100" min="20" max="300">
+                <p id="par">width</p>
+            </li>
+            <li>
+                <input type="range" onmousemove="heightfunc()" id="myrange2" value="150" min="50" max="300">
+                <p id="par2">height</p>
+            </li>
+
+        </ul>
+  
+  
+  
+  </div>
+  <div class="box" id="rectangle" >
+		rgb colors
+  </div>
+  <div class="ranges2" style="background-color:black">
+  <p>controlers</p>
+  <ul id="list">
+            
+            <li>
+                <input type="range" onmousemove="borderradiusfunc()" id="myrange3" value="10" min="0" max="100">
+                <p id="par3">border radius</p>
+            </li>
+            <li>
+                <input type="range" onmousemove="borderfunc()" id="myrange4" value="1" min="0" max="20">
+                <p id="par4">border</p>
+            </li>
+            <li>
+                <input type="range" onmousemove="topfunc()" id="myrange5" value="50" min="0" max="400">
+                <p id="par5">up-down</p>
+            </li>
+            <li>
+                <input type="range" onmousemove="leftfunc()" id="myrange6" value="200" min="0" max="500">
+                <p id="par6">left-right</p>
+            </li>
+			<li>
+                <input type="range" onmousemove="rotatefunc()" id="myrange7" value="0" min="0" max="360">
+                <p id="par7">rotation</p>
+            </li>
+        </ul>
+  
+  
+  
+  </div>
+  
+  
+  </div>
+  
+</body>
+</html>
+
+
+
+
+
+
