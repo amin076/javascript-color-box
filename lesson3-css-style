@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+#list {    
+         list-style: none;              
+}
+.box {
+  float: left;
+  width: 60%;
+  padding: 10px;
+}
+.ranges1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.ranges2 {
+  float: right;
+  width: 20%;
+  padding: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h1{
+text-align:center;
+}
+
+p{
+color : white;
+}
+#rectangle {
+ position: relative;
+ height: 150px;
+ color: white;
+ top: 50px;
+ left: 200px;
+ width: 150px;
+ background: rgb(0, 200, 0);
+ border: 1px solid yellow;
+ border-radius: 10px;
+ box-shadow: rgb(0, 0, 0) 6px 6px 12px;
+ text-align: center;
+ font: 22px bold arial;
+ -webkit-transform: rotate(0); 
+transform: rotate(0)
+}
