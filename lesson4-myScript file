@@ -1,0 +1,77 @@
+        function widthfunc() {
+            var x = document.getElementById("myrange").value;
+            var rec = document.getElementById("rectangle");
+            rec.style.width = x+ "px";
+            document.getElementById("par").innerHTML = " width = " + x;
+        }
+
+        function heightfunc() {
+            var x2 = document.getElementById("myrange2").value;
+            var rec2 = document.getElementById("rectangle");
+            rec2.style.height = x2+ "px";
+            document.getElementById("par2").innerHTML = " height = " + x2;
+        }
+
+        function borderradiusfunc() {
+            var x3 = document.getElementById("myrange3").value;
+            var rec3 = document.getElementById("rectangle");
+            rec3.style.borderRadius = x3 + "px";
+            document.getElementById("par3").innerHTML = "border = " + x3 ;
+        }
+
+        function borderfunc() {
+            var x4 = document.getElementById("myrange4").value;
+            var rec4 = document.getElementById("rectangle");
+            rec4.style.borderWidth = x4 + "px";
+            document.getElementById("par4").innerHTML = "border = " + x4 ;
+        }
+
+        function topfunc() {
+            var x5 = document.getElementById("myrange5").value;
+            var rec5 = document.getElementById("rectangle");
+
+            rec5.style.top = x5 + "px";
+
+            document.getElementById("par5").innerHTML = "y = " + x5 ;
+        }
+
+        function leftfunc() {
+            var x6 = document.getElementById("myrange6").value;
+            var rec6 = document.getElementById("rectangle");
+            rec6.style.left = x6 + "px";
+            document.getElementById("par6").innerHTML = "x= " + x6 ;
+        }
+
+        function redfunc() {
+            var r = document.getElementById("rgbred").value;
+            var g = document.getElementById("rgbgreen").value;
+            var b = document.getElementById("rgbblue").value;
+            var rec7 = document.getElementById("rectangle");
+            rec7.style.background = "rgb(" + r + "," + g + "," + b + ")";
+            document.getElementById("red").innerHTML = "red  = " + r;
+        }
+
+        function greenfunc() {
+            var r = document.getElementById("rgbred").value;
+            var g = document.getElementById("rgbgreen").value;
+            var b = document.getElementById("rgbblue").value;
+            var rec7 = document.getElementById("rectangle");
+            rec7.style.background = "rgb(" + r + "," + g + "," + b + ")";
+            document.getElementById("green").innerHTML = "green  = " + g;
+        }
+
+        function bluefunc() {
+            var r = document.getElementById("rgbred").value;
+            var g = document.getElementById("rgbgreen").value;
+            var b = document.getElementById("rgbblue").value;
+            var rec7 = document.getElementById("rectangle");
+            rec7.style.background = "rgb(" + r + "," + g + "," + b + ")";
+            document.getElementById("blue").innerHTML = "blue  = " + b;
+        }
+		function rotatefunc() {
+            var x = document.getElementById("myrange7").value;
+            var rec = document.getElementById("rectangle");
+            rec.style.transform = "rotate("+x+"deg)";
+			
+            document.getElementById("par7").innerHTML = " rotation = " + x;
+        }
